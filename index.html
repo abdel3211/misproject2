@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Your Name — Home</title>
+        <link rel="stylesheet" href="CSS/style.css" />
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="container header-inner">
+                <a class="logo" href="index.html">Abdul Abdella</a>
+                <nav aria-label="Primary navigation">
+                    <ul class="nav-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="hobbies.html">Hobbies</a></li>
+                        <li><a href="discover.html">Discover UMD</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="career.html">Career</a></li>
+                        <li><a href="game.html">Game</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="container">
+            <section class="hero" aria-labelledby="hero-heading">
+                <div class="hero-grid">
+                    <div class="hero-media">
+                        <!-- Replace with your optimized headshot in files/ or images/ -->
+                    <img src="files/headshot.jpg" alt="Professional headshot of Your Name" class="headshot" loading="lazy"
+                        srcset="files/headshot.jpg 1x, files/headshot.jpg 2x" />
+                    </div>
+                    <div class="hero-content">
+                        <h1 id="hero-heading">Hello  I'm Abdul Abdella</h1>
+                        <p class="lead">
+                            I'm a Business major who loves working with people and solving problems. I enjoy turning
+                            challenges into practical solutions by collaborating closely with teams and communicating
+                            clearly to deliver measurable results.
+                        </p>
+
+                        <p>
+                            Explore this site to learn more about my skills, projects, and interests. Use the navigation above
+                            to jump between pages.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="welcome-video" aria-labelledby="video-heading">
+                <h2 id="video-heading">Welcome video</h2>
+                <p class="muted">A short introduction — replace with your own recorded welcome (MP4/WebM).</p>
+                <div class="video-wrap">
+                    <!-- Replace src with your video file in videos/ -->
+                    <video controls preload="metadata" poster="files/video-poster.jpg">
+                        <source src="videos/welcome.mp4" type="video/mp4" />
+                        <source src="videos/welcome.webm" type="video/webm" />
+                        Your browser does not support the video tag. Please download the video to watch it.
+                    </video>
+                </div>
+            </section>
+
+            <section class="hobbies" aria-labelledby="hobbies-heading">
+                <h2 id="hobbies-heading">A couple of my hobbies</h2>
+                <div class="cards">
+                    <article class="card">
+                        <img src="files/hobby3.jpeg" alt="Photo representing Soccer" class="card-media" loading="lazy"
+                             srcset="files/hobby3.jpeg 1x, files/hobby3.jpeg 2x" />
+                        <div class="card-body">
+                            <h3>Soccer</h3>
+                            <p>
+                                Soccer keeps me active, improves teamwork and discipline, and provides a great way to
+                                challenge myself physically and mentally. Playing regularly has taught me leadership,
+                                communication, and how to stay focused under pressure.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img src="files/hobby2.jpg" alt="Photo representing Video Games" class="card-media hobby2" loading="lazy"
+                             srcset="files/hobby2.jpg 1x, files/hobby2.jpg 2x" />
+                        <div class="card-body">
+                            <h3>Video Games</h3>
+                            <p>
+                                Video games are a creative outlet that help me relax and sharpen problem-solving skills.
+                                Playing strategy and cooperative games has improved my critical thinking and collaboration,
+                                and I enjoy exploring storytelling and design in interactive worlds.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container footer-inner">
+                <p>&copy; 2025 Your Name. All rights reserved.</p>
+                <p class="small muted">Built with semantic HTML5 • Responsive • Cross-browser friendly</p>
+            </div>
+        </footer>
+
+        <script src="js/script.js" defer></script>
+    </body>
+</html>
